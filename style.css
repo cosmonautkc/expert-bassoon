@@ -91,6 +91,31 @@ main {
   border-radius: 10px;
 }
 
+.card.one {
+  background-color: var(--purple-500);
+  color: var(--white);
+}
+
+.card.two {
+  background-color: var(--grey-500);
+  color: var(--white);
+}
+
+.card.three {
+  background-color: var(--white);
+  color: var(--blue-900);
+}
+
+.card.four {
+  background-color: var(--blue-900);
+  color: var(--white);
+}
+
+.card.five {
+  background-color: var(--white);
+  color: var(--blue-900);
+}
+
 .testimonial-info {
   display: flex;
   gap: var(--spacing-100);
