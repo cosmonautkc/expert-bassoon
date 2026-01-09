@@ -81,3 +81,22 @@ main {
 .sr-only {
   display: none;
 }
+
+.card {
+  border: 2px solid black;
+  padding: var(--spacing-200);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-100);
+}
+
+.heading {
+  font-weight: var(--fw-md);
+  font-size: var(--text-md);
+  line-height: 120%;
+}
+
+.testimonial-info {
+  display: flex;
+  gap: var(--spacing-100);
+}
