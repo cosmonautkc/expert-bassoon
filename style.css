@@ -77,7 +77,7 @@ main {
   padding: var(--spacing-400) var(--spacing-200);
   display: grid;
   gap: var(--spacing-200);
-  grid-template-rows: repeat(5, auto);
+  grid-template: "daniel" "jonathan" "jeanette" "patrick" "kira";
 }
 
 @media (min-width: 48rem) {
