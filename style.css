@@ -80,6 +80,12 @@ main {
   grid-template-rows: repeat(5, auto);
 }
 
+@media (min-width: 48rem) {
+  .container {
+    grid-template: "daniel daniel jonathan kira" "jeanette patrick patrick kira";
+  }
+}
+
 .sr-only {
   display: none;
 }
@@ -95,26 +101,31 @@ main {
 .card.one {
   background-color: var(--purple-500);
   color: var(--white);
+  grid-area: daniel;
 }
 
 .card.two {
   background-color: var(--grey-500);
   color: var(--white);
+  grid-area: jonathan;
 }
 
 .card.three {
   background-color: var(--white);
   color: var(--blue-900);
+  grid-area: jeanette;
 }
 
 .card.four {
   background-color: var(--blue-900);
   color: var(--white);
+  grid-area: patrick;
 }
 
 .card.five {
   background-color: var(--white);
   color: var(--blue-900);
+  grid-area: kira;
 }
 
 .testimonial-info {
