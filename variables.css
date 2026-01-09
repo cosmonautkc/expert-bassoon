@@ -1,0 +1,23 @@
+:root {
+  --purple-50: hsl(260, 100%, 95%);
+  --purple-300: hsl(264, 82%, 80%);
+  --purple-500: hsl(263, 55%, 52%);
+
+  --white: hsl(0, 0%, 100%);
+  --grey-100: hsl(214, 17%, 92%);
+  --grey-200: hsl(0, 0%, 81%);
+  --grey-400: hsl(224, 10%, 45%);
+  --grey-500: hsl(217, 19%, 35%);
+  --blue-900: hsl(219, 29%, 14%);
+  --black: hsl(0, 0%, 7%);
+
+  --spacing-100: 1rem;
+  --spacing-150: 1.5rem;
+  --spacing-200: 2rem;
+
+  --font-main: "Barlow Semi Condensed", Arial, Helvetica, sans-serif;
+
+  --text-sm: 0.625rem;
+  --text-body: 0.8rem;
+  --text-md: 1.25rem;
+}
