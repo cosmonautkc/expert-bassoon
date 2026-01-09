@@ -17,6 +17,9 @@
 
   --font-main: "Barlow Semi Condensed", Arial, Helvetica, sans-serif;
 
+  --fw-md: 500;
+  --fw-lg: 600;
+
   --text-sm: 0.625rem;
   --text-body: 0.8rem;
   --text-md: 1.25rem;
