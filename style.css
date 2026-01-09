@@ -90,13 +90,30 @@ main {
   gap: var(--spacing-100);
 }
 
+.testimonial-info {
+  display: flex;
+  gap: var(--spacing-100);
+  align-items: center;
+}
+
+.testimonial-info img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: var(--text-body);
+  font-weight: var(--fw-md);
+}
+
+.verified {
+  font-size: var(--text-sm);
+  font-weight: var(--fw-md);
+}
+
 .heading {
   font-weight: var(--fw-md);
   font-size: var(--text-md);
   line-height: 120%;
-}
-
-.testimonial-info {
-  display: flex;
-  gap: var(--spacing-100);
 }
