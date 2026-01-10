@@ -169,7 +169,7 @@ main {
 }
 
 .heading {
-  font-weight: var(--fw-md);
+  font-weight: var(--fw-lg);
   font-size: var(--text-md);
   line-height: 120%;
 }
