@@ -190,3 +190,23 @@ main {
   font-size: var(--text-md);
   line-height: 120%;
 }
+
+.one .testimonial {
+  color: var(--purple-50);
+}
+
+.two .testimonial {
+  color: var(--grey-100);
+}
+
+.three .testimonial {
+  color: var(--grey-400);
+}
+
+.four .testimonial {
+  color: var(--grey-200);
+}
+
+.five .testimonial {
+  color: var(--grey-400);
+}
