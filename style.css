@@ -185,6 +185,26 @@ main {
   font-weight: var(--fw-md);
 }
 
+.one .verified {
+  color: var(--purple-50);
+}
+
+.two .verified {
+  color: var(--grey-100);
+}
+
+.three .verified {
+  color: var(--grey-400);
+}
+
+.four .verified {
+  color: var(--grey-200);
+}
+
+.five .verified {
+  color: var(--grey-400);
+}
+
 .heading {
   font-weight: var(--fw-lg);
   font-size: var(--text-md);
