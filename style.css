@@ -130,7 +130,7 @@ main {
 
 .card.three {
   background-color: var(--white);
-  color: var(--blue-900);
+  color: var(--grey-500);
   grid-area: jeanette;
 }
 
@@ -142,7 +142,7 @@ main {
 
 .card.five {
   background-color: var(--white);
-  color: var(--blue-900);
+  color: var(--grey-500);
   grid-area: kira;
 }
 
@@ -209,6 +209,10 @@ main {
   font-weight: var(--fw-lg);
   font-size: var(--text-md);
   line-height: 120%;
+}
+
+.four .heading {
+  color: var(--grey-200);
 }
 
 .one .testimonial {
