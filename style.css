@@ -120,6 +120,16 @@ main {
   background-color: var(--purple-500);
   color: var(--white);
   grid-area: daniel;
+  position: relative;
+}
+
+.card.one .quotation {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 12%;
+  width: 6.75rem;
+  height: 6.75rem;
 }
 
 .card.two {
@@ -150,6 +160,7 @@ main {
   display: flex;
   gap: var(--spacing-100);
   align-items: center;
+  z-index: 1;
 }
 
 .testimonial-info img {
@@ -209,6 +220,7 @@ main {
   font-weight: var(--fw-lg);
   font-size: var(--text-md);
   line-height: 120%;
+  z-index: 1;
 }
 
 .four .heading {
