@@ -80,10 +80,23 @@ main {
   grid-template: "daniel" "jonathan" "jeanette" "patrick" "kira";
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 50rem) {
+  .container {
+    grid-template: "daniel jonathan" "daniel patrick" "jeanette patrick" "kira kira";
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 75rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 75rem) {
   .container {
     grid-template: "daniel daniel jonathan kira" "jeanette patrick patrick kira";
     grid-template-columns: repeat(4, 1fr);
+    max-width: 90rem;
+    width: 80%;
+    margin: 0 auto;
   }
 }
 
